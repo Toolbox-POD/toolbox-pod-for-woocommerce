@@ -1,0 +1,621 @@
+# Copyright (C) 2026 Toolbox POD
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Toolbox POD for WooCommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/toolbox-pod-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-30T18:07:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: toolbox-pod-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Toolbox POD for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://toolboxpod.com/woocommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Print-on-demand apparel from Toolbox POD. Connect your store, publish designs as products, and we print and ship every order with tracking."
+msgstr ""
+
+#. Author of the plugin
+msgid "Toolbox POD"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://toolboxpod.com"
+msgstr ""
+
+#. translators: %s: plan name.
+#, php-format
+msgid "Plan: %s"
+msgstr ""
+
+#. translators: 1: AI images left this month, 2: monthly limit.
+#, php-format
+msgid "%1$d of %2$d design images left"
+msgstr ""
+
+msgid "Design a product"
+msgstr ""
+
+msgid "Import products"
+msgstr ""
+
+msgid "Open Toolbox POD"
+msgstr ""
+
+msgid "Revenue, last 28 days"
+msgstr ""
+
+msgid "Toolbox POD charges"
+msgstr ""
+
+msgid "Profit, last 28 days"
+msgstr ""
+
+msgid "Recent orders"
+msgstr ""
+
+msgid "Reconnect"
+msgstr ""
+
+msgid "See store checks"
+msgstr ""
+
+msgid "Orders, last 24 hours"
+msgstr ""
+
+msgid "Orders, last 7 days"
+msgstr ""
+
+msgid "Orders, last 28 days"
+msgstr ""
+
+#. translators: %d: order count in the period before.
+#, php-format
+msgid "Up from %d"
+msgstr ""
+
+#. translators: %d: order count in the period before.
+#, php-format
+msgid "Down from %d"
+msgstr ""
+
+msgid "Same as the period before"
+msgstr ""
+
+msgid "No Toolbox POD orders yet."
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Our charge"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Open in Toolbox POD"
+msgstr ""
+
+msgid "All Toolbox POD orders"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Toolbox POD sent an answer the plugin could not read."
+msgstr ""
+
+msgid "New orders"
+msgstr ""
+
+msgid "Send to production automatically"
+msgstr ""
+
+msgid "Let me review each order in Toolbox POD first"
+msgstr ""
+
+msgid "When an order ships"
+msgstr ""
+
+msgid "Mark the order Completed"
+msgstr ""
+
+msgid "Add a note with tracking for the customer"
+msgstr ""
+
+msgid "Save order settings"
+msgstr ""
+
+msgid "Checkout"
+msgstr ""
+
+#. translators: %s: shipping price per order, e.g. $5.95.
+#, php-format
+msgid "Toolbox POD shipping: %s per order, US only."
+msgstr ""
+
+msgid "Toolbox POD shipping"
+msgstr ""
+
+msgid "Show it at checkout for Toolbox POD items"
+msgstr ""
+
+msgid "What buyers pay"
+msgstr ""
+
+msgid "Our shipping cost"
+msgstr ""
+
+msgid "Free shipping"
+msgstr ""
+
+msgid "Our cost plus"
+msgstr ""
+
+msgid "Extra per order, in dollars"
+msgstr ""
+
+msgid "Other shipping rates"
+msgstr ""
+
+msgid "Hide other rates for Toolbox POD items"
+msgstr ""
+
+msgid "Size guide"
+msgstr ""
+
+msgid "Show a size guide tab on Toolbox POD products"
+msgstr ""
+
+msgid "Tab name"
+msgstr ""
+
+msgid "Save checkout settings"
+msgstr ""
+
+msgid "Connection"
+msgstr ""
+
+#. translators: 1: Toolbox POD account name, 2: date.
+#, php-format
+msgid "Connected to %1$s since %2$s."
+msgstr ""
+
+msgid "Disconnect this store from Toolbox POD? New orders will no longer be sent to production."
+msgstr ""
+
+msgid "Products published from Toolbox POD:"
+msgstr ""
+
+msgid "Set them to draft"
+msgstr ""
+
+msgid "Keep them as they are"
+msgstr ""
+
+msgid "Move them to the trash"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Order settings saved."
+msgstr ""
+
+msgid "Disconnected on this store, which no longer sends anything to Toolbox POD: its webhooks and API key were removed here. Toolbox POD could not be told right now; disconnect there too."
+msgstr ""
+
+msgid "Disconnected from Toolbox POD."
+msgstr ""
+
+msgid "Ask Toolbox POD support"
+msgstr ""
+
+msgid "What do you need help with?"
+msgstr ""
+
+msgid "The technical report below is sent with your message."
+msgstr ""
+
+msgid "Send to Toolbox POD support"
+msgstr ""
+
+msgid "Connect your store to send a message from here, or use the help links below. You can copy the report into your message."
+msgstr ""
+
+msgid "Toolbox POD help"
+msgstr ""
+
+msgid "Plugin support forum"
+msgstr ""
+
+msgid "Technical report"
+msgstr ""
+
+msgid "Versions, settings and check results only. No customer data, passwords or keys."
+msgstr ""
+
+msgid "Copy report"
+msgstr ""
+
+msgid "Write a message first."
+msgstr ""
+
+msgid "Sent to Toolbox POD support. We usually answer within one business day."
+msgstr ""
+
+#. translators: %s: support request reference.
+#, php-format
+msgid "Sent to Toolbox POD support (reference %s). We usually answer within one business day."
+msgstr ""
+
+msgid "Copied"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "A print-on-demand partner prints and ships some of our products. Orders placed in our store, including your name, shipping address, the items, and your email address and phone number if you gave them, are sent to that partner. For orders that contain its products, it uses them to print the items, ship them and add tracking to your order."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Print on demand for your store"
+msgstr ""
+
+msgid "Design shirts, publish them to this store, and Toolbox POD prints and ships every order with tracking. You only pay for what sells."
+msgstr ""
+
+msgid "Connect to Toolbox POD"
+msgstr ""
+
+msgid "Fix this first:"
+msgstr ""
+
+msgid "Run checks again"
+msgstr ""
+
+msgid "Recent requests"
+msgstr ""
+
+msgid "From Toolbox POD to your store"
+msgstr ""
+
+msgid "From your store to Toolbox POD"
+msgstr ""
+
+msgid "None yet."
+msgstr ""
+
+msgid "No answer"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Fix needed"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Webhooks checked: nothing needed fixing."
+msgstr ""
+
+#. translators: %d: number of webhooks created or turned back on.
+#, php-format
+msgid "Webhooks fixed: %d created or turned back on."
+msgid_plural "Webhooks fixed: %d created or turned back on."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+msgid "Your store's connection to Toolbox POD stopped working, so new orders won't reach us."
+msgstr ""
+
+#. translators: %s: minimum plugin version.
+#, php-format
+msgid "Toolbox POD needs version %s or newer of this plugin."
+msgstr ""
+
+msgid "Update Toolbox POD for WooCommerce"
+msgstr ""
+
+msgid "This store is not connected to Toolbox POD."
+msgstr ""
+
+msgid "Your store could not reach Toolbox POD. Try again in a minute."
+msgstr ""
+
+msgid "Toolbox POD no longer accepts this store's connection. Reconnect to fix it."
+msgstr ""
+
+msgid "Too many requests to Toolbox POD. Wait a minute and try again."
+msgstr ""
+
+msgid "Toolbox POD could not reach your store. Check the Status tab."
+msgstr ""
+
+msgid "This store's connection is not active in Toolbox POD."
+msgstr ""
+
+msgid "Toolbox POD had a problem. Try again in a few minutes."
+msgstr ""
+
+#. translators: 1: HTTP status code, 2: reason code from Toolbox POD.
+#, php-format
+msgid "Toolbox POD refused the request (%1$d %2$s)."
+msgstr ""
+
+msgid "Toolbox POD items ship as their own package with this rate, priced in WooCommerce → Toolbox POD → Settings. They get it in every US zone, with or without this method."
+msgstr ""
+
+msgid "Some items in your cart ship to US addresses only. Remove them or use a US address."
+msgstr ""
+
+msgid "Standard shipping"
+msgstr ""
+
+msgid "Inches"
+msgstr ""
+
+msgid "Centimeters"
+msgstr ""
+
+msgid "Garment measurements, laid flat."
+msgstr ""
+
+msgid "Measurements in inches"
+msgstr ""
+
+msgid "Measurements in centimeters"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Not connected."
+msgstr ""
+
+msgid "Not checked: Toolbox POD did not answer."
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Toolbox POD no longer accepts this store's connection."
+msgstr ""
+
+msgid "Toolbox POD can't use this store's API key any more."
+msgstr ""
+
+msgid "Connected to Toolbox POD."
+msgstr ""
+
+msgid "Connected. Not checked from here."
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+msgid "The Toolbox POD API key is in place."
+msgstr ""
+
+msgid "The Toolbox POD API key was deleted. Reconnect to approve a new one."
+msgstr ""
+
+msgid "The Toolbox POD API key is not read/write. Reconnect to approve a new one."
+msgstr ""
+
+msgid "Order updates (webhooks)"
+msgstr ""
+
+msgid "Fix"
+msgstr ""
+
+msgid "Some Toolbox POD webhooks are missing or paused, so new orders reach us late."
+msgstr ""
+
+msgid "Webhooks are set up. Some have not delivered anything yet; they will after the next order or product change."
+msgstr ""
+
+msgid "Webhooks are set up and active."
+msgstr ""
+
+msgid "Secure connection (HTTPS)"
+msgstr ""
+
+msgid "Your store uses HTTPS."
+msgstr ""
+
+msgid "Your store does not use HTTPS. Toolbox POD can still connect, but we recommend turning HTTPS on with your host."
+msgstr ""
+
+msgid "Permalinks"
+msgstr ""
+
+msgid "Pretty permalinks are on."
+msgstr ""
+
+msgid "Plain permalinks are on. Go to Settings → Permalinks and choose any other option, such as \"Post name\"."
+msgstr ""
+
+msgid "Open permalink settings"
+msgstr ""
+
+msgid "Store API (REST)"
+msgstr ""
+
+msgid "The WordPress REST API answers."
+msgstr ""
+
+msgid "The REST API redirects to another address. Check that the WordPress Address and Site Address in Settings → General match how your store is reached."
+msgstr ""
+
+msgid "The REST API did not answer. A security plugin or your host may be blocking /wp-json/."
+msgstr ""
+
+msgid "WooCommerce approval screen"
+msgstr ""
+
+msgid "WooCommerce's approval screen opens."
+msgstr ""
+
+msgid "WooCommerce's approval screen (/wc-auth/v1/authorize) is blocked. Ask your host or security plugin to allow it, or connecting will fail."
+msgstr ""
+
+msgid "Reaching Toolbox POD"
+msgstr ""
+
+msgid "Your store can reach Toolbox POD."
+msgstr ""
+
+msgid "Your store could not reach Toolbox POD. A firewall or security plugin may be blocking outgoing requests to toolboxpod.com."
+msgstr ""
+
+msgid "API sign-in"
+msgstr ""
+
+msgid "Your server drops the Authorization header, so Toolbox POD signs in through the address instead. It works; your host can fix the header."
+msgstr ""
+
+msgid "Toolbox POD signs in with signed requests (store without HTTPS)."
+msgstr ""
+
+msgid "Toolbox POD signs in with the Authorization header."
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Your store uses US dollars."
+msgstr ""
+
+#. translators: %s: currency code, e.g. EUR.
+#, php-format
+msgid "Your store uses %s. Toolbox POD works with US dollars only. Change it under WooCommerce → Settings → General."
+msgstr ""
+
+msgid "Open settings"
+msgstr ""
+
+msgid "Versions"
+msgstr ""
+
+#. translators: 1: WordPress version, 2: WooCommerce version, 3: PHP version.
+#, php-format
+msgid "WordPress %1$s, WooCommerce %2$s, PHP %3$s."
+msgstr ""
+
+msgid "Toolbox POD needs WordPress 7.0, WooCommerce 11.0 and PHP 7.4 or newer."
+msgstr ""
+
+msgid "Memory limit"
+msgstr ""
+
+#. translators: %s: PHP memory limit, e.g. 256M.
+#, php-format
+msgid "PHP memory limit is %s."
+msgstr ""
+
+#. translators: %s: PHP memory limit, e.g. 64M.
+#, php-format
+msgid "PHP memory limit is %s. Ask your host for at least 128M; product images may fail below that."
+msgstr ""
+
+msgid "Time limit"
+msgstr ""
+
+msgid "PHP has no time limit."
+msgstr ""
+
+#. translators: %d: seconds.
+#, php-format
+msgid "PHP time limit is %d seconds."
+msgstr ""
+
+#. translators: %d: seconds.
+#, php-format
+msgid "PHP time limit is %d seconds. Ask your host for at least 30; publishing products may time out below that."
+msgstr ""
+
+msgid "Uploads folder"
+msgstr ""
+
+msgid "WordPress can save product images."
+msgstr ""
+
+msgid "WordPress can't write to the uploads folder, so product images can't be saved. Ask your host to fix the folder permissions."
+msgstr ""
+
+msgid "Background tasks"
+msgstr ""
+
+msgid "Could not read WooCommerce background tasks."
+msgstr ""
+
+msgid "Webhooks are being sent on time."
+msgstr ""
+
+msgid "Some webhooks are more than 15 minutes late, usually because WP-Cron is off or the site gets few visits. Toolbox POD still finds new orders, a little later. Ask your host to run WP-Cron from a real cron job."
+msgstr ""
+
+msgid "Other print-on-demand apps"
+msgstr ""
+
+msgid "No other print-on-demand plugins are active."
+msgstr ""
+
+#. translators: %s: plugin names, comma separated.
+#, php-format
+msgid "Also active: %s. Make sure each product is fulfilled by only one service, or an order may be printed twice."
+msgstr ""
+
+msgid "Your store uses the block checkout."
+msgstr ""
+
+msgid "Your store uses the classic checkout."
+msgstr ""
+
+#. translators: %s: tracking number, linked to (or followed by) the carrier's tracking page when known.
+#, php-format
+msgid "Tracking: %s"
+msgstr ""
+
+#. translators: 1: carrier name, e.g. USPS; 2: tracking number, linked to (or followed by) the carrier's tracking page when known.
+#, php-format
+msgid "Tracking: %1$s %2$s"
+msgstr ""

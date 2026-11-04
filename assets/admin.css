@@ -1,0 +1,21 @@
+/* WooCommerce → Toolbox POD. */
+.toolbox-pod .nav-tab-wrapper { margin-bottom: 16px; }
+.toolbox-pod-card { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 16px 20px; margin: 0 0 16px; }
+.toolbox-pod-card h2 { margin-top: 0; }
+.toolbox-pod-account { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+.toolbox-pod-account p { margin: 0; }
+.toolbox-pod-actions .button { margin-right: 6px; }
+.toolbox-pod-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin-bottom: 8px; }
+.toolbox-pod-stat { display: flex; flex-direction: column; gap: 4px; margin: 0; }
+.toolbox-pod-stat-title, .toolbox-pod-stat-note { color: #646970; }
+.toolbox-pod-stat-value { font-size: 24px; line-height: 1.3; }
+.toolbox-pod-pill { display: inline-block; padding: 1px 8px; border-radius: 10px; background: #f0f0f1; white-space: nowrap; }
+.toolbox-pod-pill-ok, .toolbox-pod-tone-success { background: #edfaef; color: #00450c; }
+.toolbox-pod-pill-warning, .toolbox-pod-tone-warning { background: #fcf9e8; color: #614200; }
+.toolbox-pod-pill-error, .toolbox-pod-tone-danger { background: #fcf0f1; color: #8a2424; }
+.toolbox-pod-pill-info, .toolbox-pod-tone-info, .toolbox-pod-tone-progress { background: #f0f6fc; color: #043959; }
+.toolbox-pod-checks td { vertical-align: middle; }
+.toolbox-pod-checks form { margin: 0; }
+.toolbox-pod-details { margin-top: 16px; }
+.toolbox-pod-details summary { cursor: pointer; font-weight: 600; }
+.toolbox-pod-blockers { list-style: disc; padding-left: 20px; }
