@@ -4,7 +4,7 @@ Tags: print on demand, t-shirts, dropshipping, fulfillment, apparel
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,6 +88,9 @@ WooCommerce → Toolbox POD → Status lists each store check with a fix. The Su
 5. Status checks for the connection, webhooks, HTTPS and your server.
 
 == Changelog ==
+
+= 0.1.1 =
+* Security: disconnecting or deleting the plugin now removes only the API key Toolbox POD was given, never another integration's key.
 
 = 0.1.0 =
 * First release: connect your store, publish Toolbox POD products to it, and orders for them go to production with tracking added when they ship.

@@ -85,12 +85,15 @@ final class Toolbox_POD_Cleanup {
 				$ids[] = (int) $row->key_id;
 			}
 		}
-		if ( (int) $key_id > 0 ) {
-			$ids[] = (int) $key_id;
-		}
 		$deleted = 0;
 		foreach ( array_unique( $ids ) as $id ) {
 			$deleted += (int) $wpdb->delete( $wpdb->prefix . 'woocommerce_api_keys', array( 'key_id' => $id ), array( '%d' ) );
+		}
+		// The stored id came in through PUT /connection, which any store manager may call: delete it only when the
+		// key is ours (its description starts "Toolbox POD", as in Toolbox_POD_REST::delete_our_key), never another
+		// integration's key.
+		if ( (int) $key_id > 0 && ! in_array( (int) $key_id, $ids, true ) ) {
+			$deleted += (int) $wpdb->query( $wpdb->prepare( "DELETE FROM {$wpdb->prefix}woocommerce_api_keys WHERE key_id = %d AND description LIKE %s", (int) $key_id, $wpdb->esc_like( self::KEY_APP_NAME ) . '%' ) );
 		}
 		// phpcs:enable WordPress.DB.DirectDatabaseQuery
 		return $deleted;
