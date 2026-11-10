@@ -4,7 +4,7 @@ Tags: print on demand, t-shirts, dropshipping, fulfillment, apparel
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Print-on-demand apparel for your WooCommerce store. Publish designs as products;
 
 == Description ==
 
-Toolbox POD prints your designs on shirts when they sell and ships them to your customers from the United States.
+[Toolbox POD](https://toolboxpod.com/) prints your designs on shirts when they sell and ships them to your customers from the United States. See how it works with WooCommerce at [toolboxpod.com/woocommerce](https://toolboxpod.com/woocommerce).
 
 * Connect your store in one click. You approve access on WooCommerce's own screen, and you can revoke it at any time under WooCommerce → Settings → Advanced → REST API.
 * Design in Toolbox POD and publish products with colors, sizes, prices and mockup photos straight to this store.
@@ -26,7 +26,7 @@ Toolbox POD ships to US addresses only. Checkout refuses other addresses for car
 
 == External services ==
 
-This plugin connects your store to Toolbox POD (https://toolboxpod.com), a print-on-demand service run by Toolbox POD. Toolbox POD is required: the plugin does nothing on its own. Until you click "Connect to Toolbox POD", the plugin contacts no outside server.
+This plugin connects your store to [Toolbox POD](https://toolboxpod.com/), a print-on-demand service run by Toolbox POD. Toolbox POD is required: the plugin does nothing on its own. Until you click "Connect to Toolbox POD", the plugin contacts no outside server.
 
 * When you click "Connect to Toolbox POD", your browser opens toolboxpod.com with your store's address, then WooCommerce's approval screen. If you approve, WooCommerce sends Toolbox POD an API key for your store.
 * With that key, Toolbox POD's servers create and update the products you publish, read orders that contain those products (customer name, shipping address, email and phone if given, and the items), add tracking to them, and set up WooCommerce webhooks. Those webhooks send every new or changed order and every product change in your store to toolboxpod.com; Toolbox POD acts only on its own products and the orders that contain them.
@@ -36,8 +36,8 @@ This plugin connects your store to Toolbox POD (https://toolboxpod.com), a print
 * When you delete the plugin while it is connected, it tells toolboxpod.com once, with the store token, so Toolbox POD disconnects your store and sets the products it published to draft. That request carries your store's address and no customer data.
 * "Send to Toolbox POD support" sends your message and the technical report shown on the Support tab (versions, store address, active plugins, settings, check results and recent request paths; no customer data or keys).
 
-Terms of service: https://toolboxpod.com/policies/terms
-Privacy policy: https://toolboxpod.com/policies/privacy
+Terms of service: [https://toolboxpod.com/policies/terms](https://toolboxpod.com/policies/terms)
+Privacy policy: [https://toolboxpod.com/policies/privacy](https://toolboxpod.com/policies/privacy)
 
 == Installation ==
 
@@ -49,7 +49,7 @@ Privacy policy: https://toolboxpod.com/policies/privacy
 
 = Where do I design and publish products? =
 
-In Toolbox POD (https://toolboxpod.com/app). Products you publish appear in this store like any other WooCommerce product.
+In Toolbox POD ([toolboxpod.com/app](https://toolboxpod.com/app)). Products you publish appear in this store like any other WooCommerce product.
 
 = Do I need a Toolbox POD account? =
 
@@ -88,6 +88,9 @@ WooCommerce → Toolbox POD → Status lists each store check with a fix. The Su
 5. Status checks for the connection, webhooks, HTTPS and your server.
 
 == Changelog ==
+
+= 0.1.2 =
+* Readme: links to toolboxpod.com, the WooCommerce setup page, the terms of service and the privacy policy. No code changes.
 
 = 0.1.1 =
 * Security: disconnecting or deleting the plugin now removes only the API key Toolbox POD was given, never another integration's key.
