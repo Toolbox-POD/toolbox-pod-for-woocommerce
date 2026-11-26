@@ -2,9 +2,9 @@
 Contributors: toolboxpod, coltonfitzgerald
 Tags: print on demand, t-shirts, dropshipping, fulfillment, apparel
 Requires at least: 7.0
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,6 +88,9 @@ WooCommerce → Toolbox POD → Status lists each store check with a fix. The Su
 5. Status checks for the connection, webhooks, HTTPS and your server.
 
 == Changelog ==
+
+= 0.1.3 =
+* Tested with WordPress 7.2 and WooCommerce 11.3. No functional changes.
 
 = 0.1.2 =
 * Readme: links to toolboxpod.com, the WooCommerce setup page, the terms of service and the privacy policy. No code changes.

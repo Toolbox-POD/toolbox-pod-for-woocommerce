@@ -3,12 +3,12 @@
  * Plugin Name:          Toolbox POD for WooCommerce
  * Plugin URI:           https://toolboxpod.com/woocommerce
  * Description:          Print-on-demand apparel from Toolbox POD. Connect your store, publish designs as products, and we print and ship every order with tracking.
- * Version:              0.1.2
+ * Version:              0.1.3
  * Requires at least:    7.0
  * Requires PHP:         7.4
  * Requires Plugins:     woocommerce
  * WC requires at least: 11.0
- * WC tested up to:      11.2
+ * WC tested up to:      11.3
  * Author:               Toolbox POD
  * Author URI:           https://toolboxpod.com
  * License:              GPL-2.0-or-later
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'TOOLBOX_POD_VERSION', '0.1.2' );
+define( 'TOOLBOX_POD_VERSION', '0.1.3' );
 define( 'TOOLBOX_POD_FILE', __FILE__ );
 define( 'TOOLBOX_POD_DIR', plugin_dir_path( __FILE__ ) );
 
